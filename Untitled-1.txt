@@ -1,0 +1,4 @@
+subsegment = xray_recorder.begin_subsegment('metadata')
+    subsegment.put_metadata('flow part', 'before connect')
+    subsegment.put_metadata('config data', app.config)
+    xray_recorder.end_subsegment()
